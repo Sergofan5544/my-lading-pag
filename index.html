@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название лендинга</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">Ваш логотип</div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#main-section">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact-form">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основная секция -->
+    <section id="main-section" class="main-section">
+        <h1>Привлекающий внимание заголовок</h1>
+        <p>Описание вашего бизнеса или продукта.</p>
+        <button onclick="scrollToSection('services')">Узнать больше</button>
+    </section>
+
+    <!-- Блок услуг -->
+    <section id="services" class="services">
+        <h2>Наши услуги</h2>
+        <div class="service-item">
+            <img src="icon-service.png" alt="Иконка сервиса">
+            <h3>Первая услуга</h3>
+            <p>Подробное описание первой услуги.</p>
+        </div>
+        <div class="service-item">
+            <img src="icon-service.png" alt="Иконка сервиса">
+            <h3>Вторая услуга</h3>
+            <p>Подробное описание второй услуги.</p>
+        </div>
+    </section>
+
+    <!-- Форма контактов -->
+    <section id="contact-form" class="contact-form">
+        <h2>Свяжитесь с нами</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Имя">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Сообщение"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <p>© Ваш бренд 2025</p>
+        <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
